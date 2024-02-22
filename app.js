@@ -5,6 +5,7 @@ let input = document.querySelector(".search-bar");
 let form = document.querySelector("FORM");
 let removeBtn = document.createElement("BUTTON");
 removeBtn.innerHTML = "Remove";
+removeBtn.setAttribute('type','button')
 form.append(removeBtn);
 
 const your_api_key = "sXDvFwOw5pkKX8T3hdmlz2ouumxIaSx4";
